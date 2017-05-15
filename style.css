@@ -5,6 +5,7 @@ body {
 	font-size: 12px;
 	line-height: 1.4em;
 	background: #ECE9E9;
+  width: 100%;
 }
 
 
@@ -117,18 +118,7 @@ a {
    overflow: hidden;
   color: #888;
 }
-.caption-footer .text-left {
-  margin-left: 15px;
-  word-spacing: 13px;
-  font-size: 19px;
-  
-}
- .footer-categories {
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 20px;
 
-   }
 .col-md-3 ul li {
   font-size: 12px;
   
@@ -139,23 +129,3 @@ a {
   list-style: none;
   padding: 0px;
  }
-.footer-content .footer-down {
-  font-weight: 900;
-  font-size: 15px;
-}
-.footer-content {
-  padding: 5px 0;
-  border-bottom: 1px solid #888;
-}
-.footer-title img {
-  display: block;
-}
-.footer-title span {
-
-}
-.footer-up {
-  color: #888;
-}
-.footer-ketthuc {
-  text-align: center;
-}
