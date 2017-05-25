@@ -1,0 +1,87 @@
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+.container {
+	max-width: 940px;
+}
+section .container .header ul li a {
+	color: #848484;
+	font-size: 10px;
+}
+
+nav ul li .activer, .hea {
+	font-family: 'Patrick Hand', cursive;
+	font-size: 15px;
+	font-weight: 200;
+	color: black;
+	display: block;
+
+	}
+	.header .nav-pills li .english:hover {
+		text-decoration: none;
+		color: #428bca;
+	}
+	nav .nav-pills li {
+		position: relative;
+	}
+nav .nav-pills li .hea:hover {
+	color:  #fe527a;
+	border-bottom: 3px solid #fe527a;
+	background: #fff;
+	    border-radius: 0px;
+}
+nav .nav-pills li > .sub-menu {
+	display: none;
+	position: absolute;
+}
+nav .nav-pills li:hover .sub-menu {
+	display: block;
+}
+nav .nav-pills li .sub-menu li a:hover {
+	color: #fe527a;
+	border-bottom: 3px solid #fe527a;
+   
+}
+nav .nav-pills li .sub-menu li a {
+	color: #333;
+}
+.content {
+	background: #fff;
+	height: 1080px;
+
+}
+.capture1 .col-md-12 .footer-content {
+	text-align: center;
+	padding-top: 25px;
+}
+footer .container .row .col-md-12 ul li {
+	font-size: 10px;
+	margin: 3px;
+	float: left;
+	list-style: none;
+
+}
+footer .container .row .col-md-12 ul li .he-pri, .ch-li {
+	color:  #848484;
+}
+footer .container .row .col-md-12 ul li .he-pri:hover, .ch-li:hover {
+	text-decoration: none;
+	color:   #34af68 ;
+
+	
+}
+
+footer .container .row .col-md-12 {
+	color: #848484;
+	text-align: center;
+}
+
+footer .container .row .col-md-12 .col-md-8 {
+	font-size: 10px;
+    padding-top: 5px;
+}
+
+footer .container .row .col-md-12 .col-md-8 p .agil:hover {
+   text-decoration: none;
+   color: #848484;
+ }
