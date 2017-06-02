@@ -53,53 +53,169 @@ nav .nav-pills li .sub-menu li a {
       width: 60%;
       margin: auto;
   }
-  .b2 .col-md-12 p {
-  	font-family: 'Patrick Hand', cursive;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 30px;
-  }
-.tooltip {
+  
+.b1 .col-md-12 p {
+	font-family: cursive;
+	font-size: 12px;
+	line-height: 2em;
+}
+
+.no-text {
+	padding: 30px;
+
+}
+
+
+/*.b2 .col-md-6 .addthis {
+    
+    background: url(hinhanhcozy/mota.gif) 0 0;
     position: relative;
-    display: inline-block;
-   
+}
+.b2 .col-md-6 .addthis .button {
+	position: absolute;*/
+
+.icon {
+	fill: #fff;
 }
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #fff;
-    color: #333;
+.mangxahoi a .icon-facebook {
+	background: rgb(59, 89, 152);
+}
+
+
+.mangxahoi a .icon-twi {
+	background-color: rgb(29, 161, 242);
+}
+
+.mangxahoi a .icon-thu {
+	background-color: rgb(132, 132, 132);
+}
+
+.mangxahoi a .icon-p {
+	background-color: rgb(203, 32, 39);
+}
+
+.mangxahoi a .icon-them {
+	background-color: rgb(255, 101, 80);
+}
+
+
+.b2 .col-md-12 {
+
+	margin: 30px -40px;
+
+}
+.b2 .col-md-12 ul {
+
+}
+
+.b2 .col-md-12 ul .mangxahoi {
+	float: left;
+	list-style: none;
+	padding: 0px 2px;
+}
+
+
+
+.b2 .col-md-12 ul .mangxahoi .submenu {
+	width: 150px;
+	padding: 0
+	background: #FAFAFA;
+	border: 1px solid #cccccc;
+	display: none;
+
+}
+
+.b2 .col-md-12 ul .them:hover .submenu {
+	display: block;
+}
+
+.b2 .col-md-12 ul .mangxahoi .submenu li {
+	list-style: none;
+	padding: 0 5px;
+	width: auto;
+	height: 25px;
+	margin-left: -41px;
+	line-height: 25px;
+
+}
+
+.b2 .col-md-12 ul .mangxahoi .submenu li a {
+	margin-left: 18px;
+	text-transform: capitalize;
+	font-size: 12px;
+	font-family: 
+}
+
+.b2 .col-md-12 ul .mangxahoi .submenu li a:hover {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.b2 .col-md-12 ul .mangxahoi .submenu li:hover {
+	background: rgb(29, 161, 242);
+	cursor: pointer;
+	
+}
+
+.b2 .col-md-12 ul  .submenu .bbq {
+	display: block;
+}
+
+.addthis_counter.addthis_bubble_style {
+	
+	margin: 0 0 0 -2px;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+    font-weight: 700;
+    font-family: arial,helvetica,sans-serif;
+    color: #000;
+}
+.addthis_counter.addthis_bubble_style .addthis_button_expanded {
+	background: url(hinhanhcozy/mota.gif) 0px 0px;
+	width: 46px;
+	display: block;
+
+}
+
+
+#list {
+    position: relative;
+}
+
+#list li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     position: absolute;
-    
-    top: -5px;
-    left: 110%;
-    border:1px solid #333;
-}
-
-.tooltip .tooltiptext:after {
-   content: "";
-    position: absolute;
-    top: 50%;
-    right: 100%;
-    margin-top: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent black transparent transparent;
-    
-}
-.tooltip .tooltiptext {
-    visibility: visible;
+    top: 0;
 }
 
 
 
+#list a {
+	text-align: center;
+	line-height: 32px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #585858;
+}
 
+#list li, #list a {
+    height: 32px;
+    display: block;
+}
 
-
+#home {
+    left: 180px;
+    width: 62px;
+    background: url('hinhanhcozy/mota.gif') 0 0px;
+}
+#home a:hover {
+background: url('hinhahcozy/mota.gif')  0 -32px;
+	text-decoration: none;
+	color: #000000;
+}
 
 footer .container .row .col-md-12 ul li {
 	font-size: 10px;
