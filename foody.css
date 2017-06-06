@@ -1,0 +1,631 @@
+body {
+  font-family: arial;
+    font-size: 12px;
+    line-height: 1.4em;
+}
+
+header {
+	background: #333;
+	padding: 10px 0 0 0;
+
+}
+
+.container-topbar .col-md-12 .topbar{
+	width: 1170px;
+	margin: 10px 0 0 0 ;
+
+}
+
+.container-topbar .col-md-12 .topbar a {
+	padding: 8px 15px;
+	color:#ddd;
+	display: block;
+	float: left;
+}
+
+.container-topbar .col-md-12 .topbar a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.container-topbar .col-md-12 .topbar .current {
+	background: #fff;
+	color: #333;
+
+}
+
+header .header-toolbar {
+	background: #fff;
+	height: 45px;
+}
+header .header-toolbar .container .foody-img {
+
+	float: left;
+
+}
+.row .col-md-4 {
+	margin: 6px 0;
+}
+
+.row .btn-group {
+	padding: 0 7px;
+	margin-left: 7px;
+}
+
+.row .col-md-8 .icon-bar,.iconapp {
+	margin-top: 7px;
+}
+.row .col-md-8 .icon-bar {
+	padding-right: 10px;
+}
+
+
+.login .dangnhap {
+	background: url(hinhanhfoody/toggle_down_light.png);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+    padding: 15px 20px 15px 0 ;
+}
+
+.login .dangnhap span {
+	font-size: 15px;
+	font-weight: 400;
+	color: #333;
+}
+.login .dangnhap span:hover {
+	float: left;
+	text-decoration: none;
+}
+
+.row .col-md-8 .language-dropdown-container {
+	margin: 0 0 0 25px;
+}
+
+.login a img {
+	margin-left: 29px;
+	padding-top: 10px;
+}
+
+.nav-add-buttons {
+    float: right;
+    margin-left: 10px;
+    line-height: 20px;
+    position: relative;
+    margin-top: 7px;
+}
+
+.nav-add-buttons>a {
+    background: #eee;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    color: #666;
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: 400;
+    height: 30px;
+    width: 30px;
+}
+.nav-add-buttons a:hover {
+	text-decoration:none;
+	background: #ddd;
+}
+.language-dropdown-container .language-dropdown-btn img {
+	width: 40px;
+	height: 40px;
+	margin-top: 5px;
+}
+
+ 
+
+  
+
+/*-----Banner-------*/
+
+.home-banner {
+	width: 100%;
+	height: auto;
+	background: #000;
+	padding: 20px 0;
+}
+
+/*------End banner------*/
+
+.main-content {
+	padding-top: 20px;
+}
+
+.main-content .title-menuleft {
+	background: #e5e5e5;
+	color: #333;
+
+	font-size: 14px;
+	padding: 16px 10px;
+	text-transform: uppercase;
+}
+
+.main-content .content .col-md-2 ul {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+
+.main-content .content .col-md-2 ul li {
+	list-style: none;
+	padding: 0;
+}
+.main-content .content .col-md-2 ul li a {
+	border-left: transparent 2px solid;
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: #e5e5e5 1px solid;
+    color: #555;
+}
+
+.main-content .content .col-md-2 ul li i {
+	float: right;
+
+}
+
+.main-content .content .col-md-2 ul li .active:hover {
+	text-decoration: none;
+}
+
+.main-content .content .col-md-2 ul li a:hover {
+	text-decoration: none;
+	color: #c00;
+}
+
+.main-content .content .affix {
+	top:0;
+	width: 165px;
+}
+
+.main-content .content .col-md-2 {
+	position:relative;
+}
+
+/*--End menuleft--*/
+
+
+
+
+/*--------start dropdown--------*/
+.col-md-10 .a .col-md-12 .dropdown {
+ 
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul {
+	margin: 0;
+    padding: 0;
+    font-size: 14px;
+   background: #ddd;
+   width: 100%;
+   height: 45px;
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul li {
+	padding: 0
+	height: 45px;
+	line-height: 45px;
+	float: left;
+	list-style: none;
+	
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul .noibat {
+	background: #fff;
+	border-bottom: 1px solid #c00;
+	cursor: pointer;
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul .noibat a:hover {
+	text-decoration: none;
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul li a {
+	padding: 0 15px;
+	font-size: 14px;
+	color: #666;
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul .nextnoibat:hover {
+	text-decoration: none;
+	background: #fff;
+	border-bottom: 1px solid #c00;
+	color: #c00;
+	cursor: pointer;
+}
+
+.col-md-10 .a .col-md-12 .dropdown ul .nextnoibat:hover a{
+	text-decoration: none;
+}
+
+.col-md-10 .a .col-md-12 .navbar-collapse {
+	position: absolute;
+}
+
+.pristine {
+ 	margin: 8px 10px 0 0;
+ 	height: 30px;
+ 	width: 130px;
+ 	float: right;
+  font-size: 14px;
+ }
+
+ .a .col-md-12 .affix {
+      top: 0;
+      width: 945px;
+
+  }
+
+  .affix + .dropdown {
+      padding-top: 70px;
+  }
+
+  .col-md-10 .a .col-md-12 {
+  	position: absolute;
+  }
+
+/*--------End dropdown---------*/
+
+
+
+
+/*-------CONTENT-------*/
+
+.b {
+	margin-top: 50px;
+}
+
+
+.img-thumbnail {
+  border: none;
+} 
+
+
+.caption a .anchu {
+  overflow: hidden;
+}
+
+
+.thumbnail  p {
+  color: #888;
+}
+
+.thumbnail .caption-footer {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+}
+
+.caption a {
+  
+  font-weight: 700;
+  font-size: 14px;  
+  color: #333;
+}
+
+.thumbnail .caption-footer .text-left a {
+	color: #888;
+    padding-right: 10px;
+
+}
+
+.thumbnail .caption-footer .text-left a span {
+	font-size: 14px;
+}
+
+.caption-footer .text-right {
+	background: #ddd;
+	width: 48px;
+	height: 20px;
+	border-radius: 2px;
+	float: right;
+	cursor: pointer;
+}
+
+.caption-footer .text-right a span {
+	color: #888;
+	margin-right: 8px;
+	margin-top: 3px;
+}
+
+.caption-footer .text-left a .like-cmt:hover {
+	color: #000;
+}
+
+.caption-footer .text-right:hover a span {
+	color: #000;
+}
+
+
+/*------END CONTENT-------*/
+
+
+
+/*-------------------------------------*/
+.c .col-md-12 li {
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	background: #049ec5;
+	border-radius:2px;
+	cursor: pointer;
+}
+
+
+.c .col-md-12 a {
+	color: #fff;
+	font-size: 14px;
+
+}
+
+.c .col-md-12 a:hover {
+	text-decoration: none;
+}
+
+.c .col-md-12 li:hover {
+	background: #0066CC;
+}
+
+/*-------End Xem thêm-------------------*/
+
+
+/*---friend-------*/
+
+.footer-friend .title-thanhvien a {
+	color: #c00;
+	font-weight: 700;
+	font-size: 16px;
+
+}
+
+.footer-friend .title-thanhvien a:hover {
+	text-decoration: none;
+}
+
+.footer-friend .windy .friend .list-frie {
+	list-style: none;
+	float: left;
+}
+
+.windy .friend .list-frie{
+	margin-left: -50px;
+}
+
+.windy .friend .list-frie a ul li {
+	list-style: none;
+	margin-right: 15px;
+}
+
+.windy .friend .list-frie a ul li img{
+	border-radius: 60px;
+
+}
+
+.windy .friend .list-frie a ul  .name-avatar span {
+	color: #000;
+	text-align: center;
+   	text-align: center;
+    width: 60px;
+    
+    display: block;
+    font-size: 12px;
+}
+
+
+
+
+/*------END FRIEND------------------*/
+
+
+.foodypa {
+	z-index: 500;
+ 	position: relative;
+	background: #eee; 
+	width: 100%;
+	height: auto;
+}
+
+
+.foodywapper-top ul ._4the {
+	float: left;
+	list-style: none;
+	padding: 25px 145px 25px 0px;
+}
+
+.foodywapper-top ul ._4the .namethe {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #000;
+	padding-bottom: 7px;
+}
+
+.foodywapper-top ul ._4the ul {
+	margin-left: -40px;
+}
+
+.foodywapper-top ul ._4the ul li {
+	list-style: none;
+	
+	line-height: 25px;
+}
+
+.foodywapper-top ul ._4the ul li a {
+	color: #333;
+}
+
+.foodywapper-top ul ._4the ul li a span {
+	 font-style: italic;
+    color: #888;
+    cursor: pointer;
+
+}
+
+.foodywapper-top ul ._4the ul li .gachchan {
+	text-decoration:underline;
+}
+
+ .foodywapper-bottom .title-app {
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	color: #000;
+	padding: 50px 0
+}
+
+ .foodywapper-bottom .app-left .thongke {
+	border: #ddd 1px solid;
+    background: #fff;
+    text-align: center;
+    padding: 5px 25px;
+    width: 150px;
+    margin-bottom: 40px;
+    clear: both;
+    font-size: 12px;
+    color: #333;
+}
+
+.foodywapper-bottom .app-left .foody-thongke {
+	border-bottom: #ddd 1px solid;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+   width: 230px;
+
+}
+
+ .foodywapper-bottom .app-left .foody-thongke .start {
+	font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 3px;
+    text-transform: lowercase;
+    color: #000;
+}
+
+ .foodywapper-bottom .app-left .foody-thongke .end {
+	color: #888;
+}
+
+.foodywapper-bottom .app-right {
+	margin-left: 0px;
+}
+
+ .foodywapper-bottom .app-right .makp-app {
+	float: right;
+	text-align: center;
+	margin-right: -35px;
+}
+
+.foodywapper-bottom .app-right .makp-app ul li {
+	list-style: none;
+}
+
+.foodywapper-bottom .app-right a .title-makp-app {
+	border: #ddd 1px solid;
+	background: #fff;
+	padding: 5px 30px;
+	border-radius: 2px;
+	color: #000;
+
+}
+
+.app-right a:hover {
+	text-decoration: none;
+}
+
+
+
+/*---FOOTER-----*/
+
+.footer-mimax .vt {
+	padding-top: 40px;
+
+}
+
+.footer-mimax .vt ._6598 {
+float: left;
+list-style: none;
+margin-right: 120px;
+margin-left: -40px
+}
+
+.footer-mimax .vt ._6598 .khampha {
+	font-weight: 700;
+    color: #aaa;
+    border-bottom: #eee 1px solid;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.footer-mimax .vt ._6598 ._1807 {
+	margin-left: -80px;
+}
+.footer-mimax .vt ._6598 ._1807a {
+	margin-left: -40px;	
+}
+
+.footer-mimax .vt ._6598 ._1807 li {
+	list-style: none;
+	line-height: 23px;
+}
+.footer-mimax .vt ._6598 ._1807 li .desc li {
+	float: left;
+}
+
+.footer-mimax .vt ._6598 ._1807 li .desc {
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+
+.footer-mimax .vt ._6598 ._1807 li .desc .tinhthanh {
+	padding: 3px 40px 0px 0;
+    color: #666;
+    width: 100px;
+}
+
+.footer-mimax .vt ._6598 ._1807 li .desc .team {
+	background: #f9fcf7;
+	width: 118px;
+	height: 27px;
+	line-height: 27px;
+	cursor: pointer;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	padding-left: 37px;
+}
+
+.footer-mimax .vt ._6598 ._1807 li .desc .team span {
+	color: #000;
+	font-weight: 700;
+
+}
+
+.footer-mimax .vt ._6598 ._1807 li .desc .team a:hover {
+	text-decoration: none;
+}
+
+.footer-mimax .vt ._6598 ._1807 li a{
+	color: #1D95CB ;
+}
+
+.footer-mimax .vt ._6598 ._1807 li a:hover {
+	color: #000;
+}
+
+.footer-bottom p {
+	text-align: center;
+	line-height: 10px;
+	color: #999;
+}
+
+
+
