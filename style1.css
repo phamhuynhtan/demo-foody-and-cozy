@@ -68,7 +68,7 @@ nav .nav-pills li .sub-menu li a {
     position: relative;
     padding: 12px 0;
     width: 300px;
-    background: url(hinhanhcozy/bg.png) repeat-x left bottom scroll ;
+    background: url(hinhanhcozy/bg.png) repeat-x left bottom ;
     margin-top: 35px;
 }
 
@@ -80,15 +80,11 @@ nav .nav-pills li .sub-menu li a {
     height: 2px;
     width: 300px;
     background: url(hinhanhcozy/bg.png) ;
-    text-indent: -9999px;
-
-    
-
-    
+   
 }
 
 .latest-news-login .latest-news a {
-    display: inline-block;
+    
     padding-left: 12px;
     padding-right: 15px;
     font-family: 'Philosopher', sans-serif;
@@ -131,10 +127,11 @@ nav .nav-pills li .sub-menu li a {
     height: 28px;
     top: -10px;
     left: 12px;
-    text-indent: -9999px;
+    text-indent: -999px;
     z-index: 9999;
    
 }
+
 .row .col-md-12 ul li .anicon:hover {
 	transform: translate(0px,3px);
 }
@@ -142,6 +139,7 @@ nav .nav-pills li .sub-menu li a {
    box-shadow: 1px 2px 5px grey;
 
 }
+
 .row .col-md-12 ul li span {
 	padding:  5px;
 	font-size: 12px;
