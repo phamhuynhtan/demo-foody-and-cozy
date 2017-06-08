@@ -2,7 +2,7 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 .container {
-	max-width: 940px;
+	max-width: 960px;
 }
 section .container .header ul li a {
 	color: #848484;
@@ -45,43 +45,44 @@ nav .nav-pills li .sub-menu li a:hover {
 nav .nav-pills li .sub-menu li a {
 	color: #333;
 }
-.content {
+.capture1 {
 	background: #fff;
 	height: 1080px;
-
+	margin-top: 160px;
+	width: 940px;
 }
-.capture1 .col-md-12 .footer-content {
+.capture1  .footer-content {
 	text-align: center;
 	padding-top: 25px;
 }
-footer .container .row .col-md-12 ul li {
+footer .container .row  ul li {
 	font-size: 10px;
 	margin: 3px;
 	float: left;
 	list-style: none;
 
 }
-footer .container .row .col-md-12 ul li .he-pri, .ch-li {
+footer .container .row  ul li .he-pri, .ch-li {
 	color:  #848484;
 }
-footer .container .row .col-md-12 ul li .he-pri:hover, .ch-li:hover {
+footer .container .row  ul li .he-pri:hover, .ch-li:hover {
 	text-decoration: none;
 	color:   #34af68 ;
 
 	
 }
 
-footer .container .row .col-md-12 {
+footer .container .row  {
 	color: #848484;
 	text-align: center;
 }
 
-footer .container .row .col-md-12 .col-md-8 {
+footer .container .row  .col-md-8 {
 	font-size: 10px;
     padding-top: 5px;
 }
 
-footer .container .row .col-md-12 .col-md-8 p .agil:hover {
+footer .container .row .col-md-8 p .agil:hover {
    text-decoration: none;
    color: #848484;
  }
