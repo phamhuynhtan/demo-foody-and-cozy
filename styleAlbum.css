@@ -3,6 +3,7 @@ body {
 }
 .container {
 	max-width: 940px;
+	padding: 0;
 }
 section .container .header ul li a {
 	color: #848484;
@@ -48,57 +49,55 @@ nav .nav-pills li .sub-menu li a {
 
 .container .ba-gr .title {
 	
-   padding-top: 20px;
-   padding-left: 32px;    
-    font-size: 33px;
+  	padding: 25px 0 10px 30px;
+    font-size: 36px;
    
-    font-weight: 300;
+   
     color: #a8736f;
-    font-family: 'Open Sans';
+    font-family: sans-serif;
+    
  
 }
-.container .content-img .row .col-md-3 {
-	
-	
-}
-.container .content-img .row .col-md-3 .gallery {
+
+.container .content-img  .col-md-3 .gallery {
 	 margin: 5px;
     border: 1px solid #eee;
-    width: 180px;
+    width: 200px;
+    height: 300px;
    
 }
-.container .content-img .row .col-md-3 .gallery img {
+.container .content-img  .col-md-3 .gallery img {
 	
 	height: auto;
 	width: 100%;
 	
 }
-.container .content-img .row .col-md-3 .gallery .desc h5 {
+.container .content-img  .col-md-3 .gallery .desc h5 {
 	text-align: center;
 	line-height: 44px;
 	padding: 15px;
 	color: #444;
-	font-weight: 600
-     
+	font-family: Arial;
+    font-weight: 600;
 	}
-.container .content-img .row .col-md-3 .gallery h5:hover {
+.container .content-img  .col-md-3 .gallery h5:hover {
 		
 		color: #FF0040;
 	}
-.container .content-img .row .col-md-3 .gallery .desc a:hover {
+.container .content-img  .col-md-3 .gallery .desc a:hover {
 		text-decoration: none;
 
 	}
-.container .content-img .row .col-md-3 .gallery a:hover img {
+.container .content-img .col-md-3 .gallery a:hover img {
 	
     opacity: 0.4;
     
 }
-.container .content-img .row .col-md-3 .gallery a {
+.container .content-img  .col-md-3 .gallery a {
 	position: relative;
 	
 }
-.container .content-img .row .col-md-3 .gallery .link {
+.container .content-img  .col-md-3 .gallery .link {
 	background: #e50051 url(hinhanhcozy/link.png);
 	width: 30px;
 	height: 30px;
@@ -108,7 +107,7 @@ nav .nav-pills li .sub-menu li a {
     position: absolute;
     
 }
-.container .content-img .row .col-md-3 .gallery a:hover .link {
+.container .content-img .col-md-3 .gallery a:hover .link {
 	opacity: 1;
 }
 
@@ -120,34 +119,34 @@ nav .nav-pills li .sub-menu li a {
 
 
 
-footer .container .row .col-md-12 ul li {
+footer .container .row  ul li {
 	font-size: 10px;
 	margin: 3px;
 	float: left;
 	list-style: none;
 
 }
-footer .container .row .col-md-12 ul li .he-pri, .ch-li {
+footer .container .row  ul li .he-pri, .ch-li {
 	color:  #848484;
 }
-footer .container .row .col-md-12 ul li .he-pri:hover, .ch-li:hover {
+footer .container .row  ul li .he-pri:hover, .ch-li:hover {
 	text-decoration: none;
 	color:   #34af68 ;
 
 	
 }
 
-footer .container .row .col-md-12 {
+footer .container .row  {
 	color: #848484;
 	text-align: center;
 }
 
-footer .container .row .col-md-12 .col-md-8 {
+footer .container .row  .col-md-8 {
 	font-size: 10px;
     padding-top: 5px;
 }
 
-footer .container .row .col-md-12 .col-md-8 p .agil:hover {
+footer .container .row .col-md-8 p .agil:hover {
    text-decoration: none;
    color: #848484;
  }

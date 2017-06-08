@@ -2,14 +2,14 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 .container {
-	max-width: 940px;
+	max-width: 960px;
 }
 section .container .header ul li a {
 	color: #848484;
 	font-size: 10px;
 }
 
-nav ul li .activer, .hea {
+nav ul li .active, .hea {
 	font-family: 'Patrick Hand', cursive;
 	font-size: 15px;
 	font-weight: 200;
@@ -45,11 +45,11 @@ nav .nav-pills li .sub-menu li a:hover {
 nav .nav-pills li .sub-menu li a {
 	color: #333;
 }
-.container .b .col-md-12 .content .row .col-md-12  ul{
+.container   .content    ul{
 	list-style: none;
 	margin-left: -20px;
 }
- .container .b .col-md-12 .content .row .col-md-12  ul li{
+ .container   .content    ul li{
 	display: inline-table;
 	padding-right: 55px;
 	font-weight: 900;
@@ -57,13 +57,13 @@ nav .nav-pills li .sub-menu li a {
 	font-family: "Open Sans",Arial,sans-serif;
 
 }
-.container .b .col-md-12 .content .row .col-md-12  ul li a:hover {
+.container   .content   ul li a:hover {
 	text-decoration: none;
 }
-.container .b .col-md-12 .content .row .col-md-12  ul li ._hhd {
+.container   .content   ul li ._hhd {
 	color:#6D6D6D;
 }
-.container .b .col-md-12 .content .row .col-md-12  ul li ._hhd:hover {
+.container   .content   ul li ._hhd:hover {
 	color:  #54B67C;
 }
 span {
@@ -71,12 +71,12 @@ span {
 	font-size: 12px;
 
 }
-.row .col-md-12 .c .col-md-8 p {
+  .c .col-md-8 p {
 	font-family: "Open Sans", Arial, sans-serif;
     line-height: 20px;
 }
 
-.row .col-md-12 .c .col-md-4 .boder {
+ .c .col-md-4 .boder {
 	
     background: url(hinhanhcozy/sprite.png) -535px -225px ;
     display: block;
@@ -89,36 +89,36 @@ span {
     z-index: 9999;
    
 }
-.row .col-md-12 .c .col-md-4 .khunganh img {
+  .c .col-md-4 .khunganh img {
 	border: 5px solid #fff;
 
 }
-.row .col-md-12 .c .col-md-4 {
+  .c .col-md-4 {
 	padding-top: 30px;
 }
-.row .col-md-12 .c .col-md-8 {
+  .c .col-md-8 {
 	padding-top: 20px;
 }
-.row .col-md-12 .c .col-md-4 .khunganh img:hover {
+ .c .col-md-4 .khunganh img:hover {
 	border: 5px solid #34af68;
 }
-.row .col-md-12 .content .c .col-md-4 .khunganh img {
+ .content .c .col-md-4 .khunganh img {
    box-shadow: 1px 2px 5px grey;
 
 }
-.col-md-12 .c .col-md-8 .tieude h5 {
+ .c .col-md-8 .tieude h5 {
 	color: #424242;
 	font-weight: 600;
 	font-size: 13px;
 }
-.col-md-12 .c .col-md-8 .tieude h5:hover {
+ .c .col-md-8 .tieude h5:hover {
 	color: #54B67C;
 	
 }
-.col-md-12 .c .col-md-8 .tieude:hover {
+ .c .col-md-8 .tieude:hover {
 	text-decoration: none;
 }
-.row .col-md-12 .c .col-md-8 p span a:hover {
+.row .c .col-md-8 p span a:hover {
 	text-decoration: none;
 }
 
@@ -130,34 +130,40 @@ span {
 
 
 
-footer .container .row .col-md-12 ul li {
+footer .container  ul li {
 	font-size: 10px;
 	margin: 3px;
 	float: left;
 	list-style: none;
 
 }
-footer .container .row .col-md-12 ul li .he-pri, .ch-li {
+footer .container .row  ul li .he-pri, .ch-li {
 	color:  #848484;
 }
-footer .container .row .col-md-12 ul li .he-pri:hover, .ch-li:hover {
+footer .container .row  ul li .he-pri:hover, .ch-li:hover {
 	text-decoration: none;
 	color:   #34af68 ;
 
 	
 }
 
-footer .container .row .col-md-12 {
+footer .container .row  {
 	color: #848484;
 	text-align: center;
 }
 
-footer .container .row .col-md-12 .col-md-8 {
+footer .container .row  .col-md-8 {
 	font-size: 10px;
     padding-top: 5px;
 }
 
-footer .container .row .col-md-12 .col-md-8 p .agil:hover {
+footer .container .row  .col-md-8 p .agil:hover {
    text-decoration: none;
    color: #848484;
  }
+
+
+
+
+
+ 

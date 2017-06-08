@@ -3,6 +3,7 @@ body {
 }
 .container {
 	max-width: 940px;
+	padding: 0;
 }
 section .container .header ul li a {
 	color: #848484;
@@ -30,7 +31,7 @@ nav .nav-pills li .hea:hover {
 	background: #fff;
 	    border-radius: 0px;
 }
-nav .nav-pills li > .sub-menu {
+nav .nav-pills li  .sub-menu {
 	display: none;
 	position: absolute;
 }
@@ -45,55 +46,59 @@ nav .nav-pills li .sub-menu li a:hover {
 nav .nav-pills li .sub-menu li a {
 	color: #333;
 }
- .b .col-md-12  ._htt ul li{
+    ._htt ul li{
 	list-style: none;
 }
-.b .col-md-12  ._htt ul li a {
+   ._htt ul li a {
 	color:#54B67C;
 	font-weight: 900; 
 	font-size: 13;
 	margin-left: -35px;
 }
 
-.b .col-md-12  ._htt ul li a:hover {
+   ._htt ul li a:hover {
 	text-decoration: none;
 }
-.b .col-md-12 .content p {
+ .content p {
 	font-size: 12px;
 	font-weight: 400;
     color: #919191;
     font-family: "Open Sans",Arial,sans-serif;
     line-height: 20px; 
 }
-footer .container .row .col-md-12 ul li {
+footer .container .row  ul li {
 	font-size: 10px;
 	margin: 3px;
 	float: left;
 	list-style: none;
 
 }
-footer .container .row .col-md-12 ul li .he-pri, .ch-li {
+footer .container .row  ul li .he-pri, .ch-li {
 	color:  #848484;
 }
-footer .container .row .col-md-12 ul li .he-pri:hover, .ch-li:hover {
+footer .container .row  ul li .he-pri:hover, .ch-li:hover {
 	text-decoration: none;
 	color:   #34af68 ;
 
 	
 }
 
-footer .container .row .col-md-12 {
+footer .container .row  {
 	color: #848484;
 	text-align: center;
 }
 
-footer .container .row .col-md-12 .col-md-8 {
+footer .container .row  .col-md-8 {
 	font-size: 10px;
     padding-top: 5px;
 }
 
-footer .container .row .col-md-12 .col-md-8 p .agil:hover {
+footer .container .row .col-md-8 p .agil:hover {
    text-decoration: none;
    color: #848484;
  }
+
+
+
+
 
