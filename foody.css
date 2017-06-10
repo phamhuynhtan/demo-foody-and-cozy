@@ -10,25 +10,25 @@ header {
 
 }
 
-.container-topbar .col-md-12 .topbar{
+.container-topbar  .topbar{
 	width: 1170px;
 	margin: 10px 0 0 0 ;
 
 }
 
-.container-topbar .col-md-12 .topbar a {
+.container-topbar  .topbar a {
 	padding: 8px 15px;
 	color:#ddd;
 	display: block;
 	float: left;
 }
 
-.container-topbar .col-md-12 .topbar a:hover {
+.container-topbar  .topbar a:hover {
 	text-decoration: none;
 	color: #fff;
 }
 
-.container-topbar .col-md-12 .topbar .current {
+.container-topbar  .topbar .current {
 	background: #fff;
 	color: #333;
 
@@ -195,11 +195,9 @@ header .header-toolbar .container .foody-img {
 
 
 /*--------start dropdown--------*/
-.col-md-10 .a .col-md-12 .dropdown {
- 
-}
 
-.col-md-10 .a .col-md-12 .dropdown ul {
+
+.col-md-10 .navbar .dropdown ul {
 	margin: 0;
     padding: 0;
     font-size: 14px;
@@ -208,7 +206,7 @@ header .header-toolbar .container .foody-img {
    height: 45px;
 }
 
-.col-md-10 .a .col-md-12 .dropdown ul li {
+.col-md-10 .navbar  .dropdown ul li {
 	padding: 0
 	height: 45px;
 	line-height: 45px;
@@ -217,23 +215,23 @@ header .header-toolbar .container .foody-img {
 	
 }
 
-.col-md-10 .a .col-md-12 .dropdown ul .noibat {
+.col-md-10 .navbar  .dropdown ul .noibat {
 	background: #fff;
 	border-bottom: 1px solid #c00;
 	cursor: pointer;
 }
 
-.col-md-10 .a .col-md-12 .dropdown ul .noibat a:hover {
+.col-md-10 .navbar  .dropdown ul .noibat a:hover {
 	text-decoration: none;
 }
 
-.col-md-10 .a .col-md-12 .dropdown ul li a {
+.col-md-10 .navbar  .dropdown ul li a {
 	padding: 0 15px;
 	font-size: 14px;
 	color: #666;
 }
 
-.col-md-10 .a .col-md-12 .dropdown ul .nextnoibat:hover {
+.col-md-10 .navbar  .dropdown ul .nextnoibat:hover {
 	text-decoration: none;
 	background: #fff;
 	border-bottom: 1px solid #c00;
@@ -241,11 +239,11 @@ header .header-toolbar .container .foody-img {
 	cursor: pointer;
 }
 
-.col-md-10 .a .col-md-12 .dropdown ul .nextnoibat:hover a{
+.col-md-10 .navbar  .dropdown ul .nextnoibat:hover a{
 	text-decoration: none;
 }
 
-.col-md-10 .a .col-md-12 .navbar-collapse {
+.col-md-10 .navbar  .navbar-collapse {
 	position: absolute;
 }
 
@@ -257,17 +255,17 @@ header .header-toolbar .container .foody-img {
   font-size: 14px;
  }
 
- .a .col-md-12 .affix {
+ .navbar  .affix {
       top: 0;
       width: 945px;
 
   }
 
-  .affix + .dropdown {
+  .affix  .dropdown {
       padding-top: 70px;
   }
 
-  .col-md-10 .a .col-md-12 {
+  .col-md-10 .navbar  {
   	position: absolute;
   }
 

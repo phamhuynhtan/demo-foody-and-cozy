@@ -48,12 +48,14 @@ nav .nav-pills li .sub-menu li a {
 }
     ._htt ul li{
 	list-style: none;
+	padding-left: 10px;
+	padding-bottom: 7px;
 }
    ._htt ul li a {
 	color:#54B67C;
 	font-weight: 900; 
-	font-size: 13;
-	margin-left: -35px;
+	
+	
 }
 
    ._htt ul li a:hover {
