@@ -2,8 +2,12 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 .container {
+<<<<<<< HEAD
 	max-width: 940px;
 	padding: 0
+=======
+	max-width: 960px;
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 }
 section .container .header ul li a {
 	color: #848484;
@@ -49,8 +53,13 @@ nav .nav-pills li .sub-menu li a {
 .capture1 {
 	background: #fff;
 	height: 1080px;
+<<<<<<< HEAD
 	margin-top: 40px;
 	width:100%;
+=======
+	margin-top: 160px;
+	width: 940px;
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 }
 .capture1  .footer-content {
 	text-align: center;

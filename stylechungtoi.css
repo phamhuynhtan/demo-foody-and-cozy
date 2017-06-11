@@ -2,8 +2,12 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 .container {
+<<<<<<< HEAD
 	max-width: 940px;
 	padding: 0;
+=======
+	max-width: 980px;
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 }
 section .container .header ul li a {
 	color: #848484;

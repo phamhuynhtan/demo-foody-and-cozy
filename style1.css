@@ -2,8 +2,12 @@ body {
 	font-family: "Open Sans", Arial, sans-serif;
 }
 .container {
+<<<<<<< HEAD
 	max-width: 940px;
 	padding: 0;
+=======
+	max-width: 980px;
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 }
 
 section .container .header ul li a {
@@ -107,16 +111,25 @@ nav .nav-pills li .sub-menu li a {
 }
   
 
+<<<<<<< HEAD
  .content-noidung .col-md-4 .khunganh img {
 	border: 5px solid #fff;
 
 }
  .content-noidung .col-md-4 .khunganh img:hover {
+=======
+ .a .col-md-4 .khunganh img {
+	border: 5px solid #fff;
+
+}
+ .a .col-md-4 .khunganh img:hover {
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 	border: 5px solid #34af68;
 }
  ul .icon {
 	list-style: none;
 	float: left;
+<<<<<<< HEAD
 	padding-top: 8px;
  
 }
@@ -131,14 +144,38 @@ nav .nav-pills li .sub-menu li a {
 
 
  .content-noidung .col-md-4 .boder {
+=======
+	margin-top: 8px;
+ 
+}
+ ul .icon .anicon span {
+	line-height: 30px;
+}
+
+.a .col-md-4 a {
+	position: absolute;
+	margin-left: -50px;
+}
+
+
+ .a .col-md-4 .boder {
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 	
     background: url(hinhanhcozy/sprite.png) -535px -225px ;
     display: block;
     position: absolute;
     width: 35px;
     height: 28px;
+<<<<<<< HEAD
      z-index: 9999;
    	top: -10px;
+=======
+    top: -10px;
+    left: 12px;
+    
+    z-index: 9999;
+   
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 }
 
  ul li .anicon:hover {
@@ -149,10 +186,13 @@ nav .nav-pills li .sub-menu li a {
 
 }
 
+<<<<<<< HEAD
 .content-noidung .col-md-4 {
 	padding-left: 50px;
 }
 
+=======
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
  
 
  ul li span {
@@ -165,6 +205,7 @@ nav .nav-pills li .sub-menu li a {
     margin: 0;
     padding-top: 32px
 }
+<<<<<<< HEAD
 
 
  .content-noidung .col-md-8 .tieude h5 {
@@ -188,6 +229,21 @@ nav .nav-pills li .sub-menu li a {
 
 .row-thutu {
 	width: 100%;
+=======
+ .a .col-md-8 .tieude h5 {
+	color: #848484;
+	font-weight: 600;
+}
+ .a .col-md-8 .tieude:hover {
+	text-decoration: none;
+}
+ .a .col-md-8 .tieude h5:hover {
+    
+    color: #54B67C;
+}
+ .a .col-md-8 p {
+	color: #a2a2a2;
+>>>>>>> 42f9036efa77a3c658c0ee21b177c9107dca6f43
 }
 
 .row-thutu  .textone, .dot, .ten, .nextgo, .upnext {
